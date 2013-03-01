@@ -1,0 +1,1 @@
+heroku build https://github.com/abhishekmunie/raw.github-proxy.git -b /Users/abhishekmunie/GitSpace/GitHub/abhishekmunie/heroku-buildpack-nginx-test
