@@ -11,6 +11,7 @@ Changed Options
     NGX_IPV6=YES
     USE_PCRE=YES
     PCRE=./pcre-8.32
+    PCRE_JIT=YES
     HTTP_SSL=YES
     HTTP_DAV=YES
     HTTP_SECURE_LINK=YES
@@ -20,6 +21,8 @@ Changed Options
     HTTP_GZIP_STATIC=YES
     MAIL=YES
     MAIL_SSL=YES
+    USE_ZLIB=YES
+    ZLIB=./zlib-1.2.7
 
 Using Your Custom Configuration
 ==================================
