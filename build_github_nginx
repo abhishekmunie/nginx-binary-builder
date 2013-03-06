@@ -1,2 +1,4 @@
-echo "Running: heroku build https://github.com/abhishekmunie/nginx-binary-builder.git -b https://github.com/heroku/heroku-buildpack-c.git"
-heroku build https://github.com/abhishekmunie/nginx-binary-builder.git -b https://github.com/heroku/heroku-buildpack-c.git
+repo=`git remote -v show -n origin | grep "Fetch URL: "`
+repo=${repo#*: }
+echo "Running: heroku build $repo -b https://github.com/heroku/heroku-buildpack-c.git"
+heroku build $repo -b https://github.com/heroku/heroku-buildpack-c.git
