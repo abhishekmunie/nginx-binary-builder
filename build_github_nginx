@@ -1,4 +1,3 @@
-repo=`git remote -v show -n origin | grep "Fetch URL: "`
-repo=${repo#*: }
+repo=`git remote -v show -n origin | grep "Fetch URL: "`;repo=${repo#*: }
 echo "Running: heroku build $repo -b https://github.com/heroku/heroku-buildpack-c.git"
 heroku build $repo -b https://github.com/heroku/heroku-buildpack-c.git
