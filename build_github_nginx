@@ -1,0 +1,2 @@
+echo "Running: heroku build https://github.com/abhishekmunie/nginx-binary-builder.git -b https://github.com/heroku/heroku-buildpack-c.git"
+heroku build https://github.com/abhishekmunie/nginx-binary-builder.git -b https://github.com/heroku/heroku-buildpack-c.git
