@@ -1,1 +1,2 @@
-heroku build https://github.com/abhishekmunie/raw.github-proxy.git -b /Users/abhishekmunie/GitSpace/GitHub/abhishekmunie/heroku-buildpack-nginx-test
+echo "Running: heroku build /Users/abhishekmunie/GitSpace/GitHub/abhishekmunie/nginx-binary-builder -b httpa://github.com/heroku/heroku-buildpack-c.git"
+heroku build /Users/abhishekmunie/GitSpace/GitHub/abhishekmunie/nginx-binary-builder -b httpa://github.com/heroku/heroku-buildpack-c.git
