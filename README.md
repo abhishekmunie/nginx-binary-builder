@@ -4,6 +4,11 @@ Nginx Binary Builder
 This repo contains nginx source files with custom configuration used to build binary used in [abhishekmunie/heroku-buildpack-nginx](https://github.com/abhishekmunie/heroku-buildpack-nginx.git)
 See [auto/options](https://github.com/abhishekmunie/nginx-binary-builder/blob/master/auto/options) for modified options.
 
+Current Version: 1.3.15
+=========================
+
+[http://nginx.org/download/nginx-1.3.15.tar.gz](http://nginx.org/download/nginx-1.3.15.tar.gz)
+
 Changed Options
 ==================
 
@@ -13,6 +18,7 @@ Changed Options
     PCRE=./pcre-8.32
     PCRE_JIT=YES
     HTTP_SSL=YES
+    HTTP_SPDY=YES
     HTTP_REALIP=YES
     HTTP_DAV=YES
     HTTP_SECURE_LINK=YES
